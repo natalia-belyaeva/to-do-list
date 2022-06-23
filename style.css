@@ -1,0 +1,112 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.main {
+    min-height: 236px;
+    width: 336px;
+    border: 1px solid #E5E5E5 ;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.yellow-line {
+    height: 28px;
+    background-color: #FFDC40;
+    border-radius: 10px 10px 0 0;
+}
+
+.wrapper {
+    padding: 15px 28px 20px 28px;
+}
+
+.todo-list {
+    font-size: 26px;
+    font-weight: 900;
+    line-height: 30px;
+    text-align: center;
+}
+
+.push-to-sort {
+    text-align: right;
+}
+
+.line {
+    min-height: 40px;
+    width: 286px;
+    border: 1px solid #E5E5E5;
+    border-radius: 10px;
+    align-items: center;
+    margin: 5px;
+}
+
+.text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    outline: none;
+    border: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-wrapper {
+    display: flex;
+    padding: 10px 30px 10px 30px;
+    justify-content: space-between; 
+}
+
+.push-to-delete {
+    align-items: center;
+    justify-content: center;
+}
+
+.sort-img:hover {
+    
+}
+/* button */
+
+.button-block {
+    text-align: center;
+}
+
+.add-button {
+    margin: 5px;
+    display: inline-block;
+}
+
+.button {
+    display: flex;
+    background-color: #833AE0;
+    border-radius: 45px;
+    color:white;
+    align-items: center;
+    text-align: center;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: #9953F1;
+}
+
+.button:hover .button-round {
+    background-color: #AA68FE;
+}
+
+.button-round {
+    min-width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #9953F1;
+}
+
+.button-text {
+    padding: 5px 25px 5px 15px;
+    display: flex;
+    align-items: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+}
